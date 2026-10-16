@@ -1,0 +1,17 @@
+{
+    "b8edbeba": {
+          "type": "text-only",
+          "title": "In-Game-Instructions",
+          "instructions": ["Use the left-mouse button to shoot the horse."]
+    },
+    "69bab900": {
+        "type": "text-only",
+        "title": "In-Game-Instructions",
+        "instructions": ["The goal is to pop each ball the screen."]
+  },
+  "5022ddbb": {
+    "type": "text-only",
+    "title": "In-Game-Instructions",
+    "instructions": ["If the horse lands in a cup, gain a horse. Missing the cups results in loosing a horse."]
+}
+  }
