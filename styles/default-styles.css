@@ -1,0 +1,66 @@
+@font-face 
+{
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+  }
+  
+@font-face 
+{
+    font-family: Oswald;
+    src: url(../fonts/Oswald-Regular.ttf);
+}
+body {
+	background: #bcb382;
+}
+h1,h2,h3,li{
+  font-family: Oswald;
+  color:#09814a;
+  
+}
+img{
+  display: none;
+}
+#homeBottom{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+#horsePlinkoImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height:50%;
+}
+#homeImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+input{
+  display: none;
+}
+canvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+input{
+  display:inline-flex;
+  width:50%;
+}
+
+
+#sourcesDiv{
+  margin:1%;
+}
+
+sw-nav{
+  padding-bottom:500px;
+}
