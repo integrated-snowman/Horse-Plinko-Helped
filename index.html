@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./src/appLoader.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.9/howler.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SZXQLX63EK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-SZXQLX63EK');
+    </script>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noodp,noydir" />
+    <meta name="description" content="Free and Fun Canvas Game About Horse Plinko"/>
+    <title>Horse Plinko</title>
+    <link rel="shortcut icon" type="image/png" href="./media/horse.png" />
+    <link href="styles/default-styles.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+
+</head>
+
+<body>
+    <main>
+        <sw-nav data-currentPage="app"></sw-nav>
+        <br>
+        <br>
+        <input hidden id="nameField" class="input" type="text" placeholder="Text input">
+        <canvas width="1000" height="800"></canvas>
+        <br>
+        <br>
+        <img id="bulletImg" alt="hiddenBulletImage" src="./media/bulletTest1.png">
+        <img id="bucketImg" alt="hiddenBucketImage" src="./media/bucketTest1.png">
+        <img id="base" alt="hiddenBackgroundImage" src="./media/backgroundImg.png">
+
+        <sw-footer></sw-footer>
+
+    </main>
+</body>
+
+</html>
